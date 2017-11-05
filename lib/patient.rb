@@ -1,7 +1,7 @@
 class Patient
 
   #Variables
-  attr_accessor :name, :appointments
+  attr_accessor :name, :patient
 
   def initialize(name)
     @name = name
